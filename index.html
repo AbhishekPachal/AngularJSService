@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Single Page Application using Angularjs</title>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.1/angular.min.js"></script>
+<script src="https://code.angularjs.org/1.4.1/angular-route.min.js"></script>    
+<script src="js/script.js"></script>
+</head>
+<body ng-app="myApp">
+
+<div ng-controller="saveController">
+	<div ng-view>
+	<!--This DIV loads templates depending upon route.-->
+	</div>
+</div>
+
+</body>
+</html>
